@@ -1,5 +1,5 @@
 import json
-from sonuc import sonuc
+from tdk.sonuc import sonuc
 from urllib.request import urlopen
 from urllib.request import Request
 from urllib.parse import quote

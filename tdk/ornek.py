@@ -1,4 +1,4 @@
-from yazar import yazar
+from tdk.yazar import yazar
 
 class ornek:
 

@@ -1,4 +1,4 @@
-from ornek import ornek
+from tdk.ornek import ornek
 
 class anlam:
 

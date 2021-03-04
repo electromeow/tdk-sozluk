@@ -1,5 +1,5 @@
-from anlam import anlam
-from atasozu import atasozu
+from tdk.anlam import anlam
+from tdk.atasozu import atasozu
 
 
 class sonuc:
