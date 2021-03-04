@@ -42,10 +42,10 @@ class anlam:
     # Anlamın türünü str olarak döndürür.
     # Returns the type of the word as str.
     def tur(self):
-        return self.sozluk["ozelliklerListe"]["tam_adi"]
+        return self.sozluk["ozelliklerListe"][0]["tam_adi"]
 
     # Anlamın türünün kısaltılmış adını str olarak döndürür.
     # Returns the acronymic name of the type of the word as str.
     def tur_kisaltmasi(self):
-        return self.sozluk["ozelliklerListe"]["kisa_adi"]
+        return self.sozluk["ozelliklerListe"][0]["kisa_adi"]
 
