@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="tdk-sozluk",
-    version="1.0.0",
+    version="1.0.1",
     author="Berat Gökgöz",
     author_email="gokgoz.berat123@gmail.com",
     description="En iyi TDK sözlük arama kütüphanesi. Best TDK dict. search library.",
