@@ -7,7 +7,7 @@ class atasozu:
     # Atasözünün ön takısını str olarak döndürür.
     # Returns the prefix of the adage as str.
     def ontaki(self):
-        return self.ontaki
+        return self.onTaki
 
     # Atasözünün kendisini str olarak döndürür.
     # Returns the adage itself as str.

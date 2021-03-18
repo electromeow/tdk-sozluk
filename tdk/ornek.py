@@ -21,7 +21,7 @@ class ornek:
     # Returns the author of the example sentence as an object of class yazar. If there isn't returns None.
     def yazar(self):
 
-        if self.sozluk["yazar_id"]==0:
+        if int(self.sozluk["yazar_id"])==0:
             return None
         else:
             return yazar(self.sozluk["yazar"]["tam_adi"],self.sozluk["yazar"]["kisa_adi"])

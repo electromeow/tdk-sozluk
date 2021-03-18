@@ -15,9 +15,9 @@ class sonuc:
             cogul=self.sozluk["cogul_mu"]
         except KeyError:
             return None
-        if cogul==0:
+        if int(cogul)==0:
             return False
-        elif cogul==1:
+        elif int(cogul)==1:
             return True
         else:
             return "UnknownError"
@@ -30,9 +30,9 @@ class sonuc:
             ozel=self.sozluk["ozel_mi"]
         except KeyError:
             return None
-        if ozel==0:
+        if int(ozel)==0:
             return False
-        elif ozel==1:
+        elif int(ozel)==1:
             return True
         else:
             return "UnknownError"

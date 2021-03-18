@@ -12,9 +12,9 @@ class anlam:
             fiilmi=self.sozluk["fiil"]
         except KeyError:
             return None
-        if fiilmi==0:
+        if int(fiilmi)==0:
             return False
-        elif fiilmi==1:
+        elif int(fiilmi)==1:
             return True
         else:
             return "UnknownError"
