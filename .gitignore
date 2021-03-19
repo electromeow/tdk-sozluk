@@ -4,3 +4,4 @@ dist
 .DS_Store
 tdk/.DS_Store
 .idea
+Tek/__pycache__
